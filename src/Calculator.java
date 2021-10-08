@@ -19,17 +19,17 @@ public class Calculator {
 
     }
 
-    public static void main(String[] args) {
+    public static void Addi(String[] args) {
 
             System.out.println("Bitte geben Sie eine Zahl ein");
-            Scanner ZahlA = new Scanner();
+            Scanner ZahlA = new Scanner(System.in);
             int A = ZahlA.nextInt();
 
             System.out.println("Bitte geben Sie eine 2. Zahl ein");
-            Scanner ZahlB = new Scanner();
+            Scanner ZahlB = new Scanner(System.in);
             int B = ZahlB.nextInt();
 
-            int Summe = ZahlA + ZahlB;
+            int Summe = A + B;
             System.out.println("Die Summe lautet" + Summe);
         }
 
