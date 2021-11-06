@@ -1,3 +1,5 @@
+package crossing;
+
 import java.util.Scanner;
 
 public class Calculator {
@@ -16,10 +18,19 @@ public class Calculator {
 
         boolean Gerade = 2 % 2 == 0;
         System.out.println("Gerade = " + Gerade);
+        //public static void printResult (Addi());
+        //Subtra();
+        //Mulit();
+       // Divi();
+       // Mulit();
 
+       // ( int result){
+       //     System.out.println(result);
+        //}
     }
 
-    public static void Addi(String[] args) {
+
+    public static void Addi() {
 
             System.out.println("Bitte geben Sie eine Zahl ein");
             Scanner ZahlA = new Scanner(System.in);
@@ -30,7 +41,24 @@ public class Calculator {
             int B = ZahlB.nextInt();
 
             int Summe = A + B;
-            System.out.println("Die Summe lautet" + Summe);
+            System.out.println("Die Summe lautet " + Summe);
         }
+        public static int Subtra (int A, int B){
+        return A - B;
+
+        }
+    public static int Mulit (int A, int B){
+        return A * B;
+
+    }
+    public static int Divi (int A, int B){
+        return A % B;
+
+    }
+    public static int Modu (int A, int B){
+        return A % B;
+
+    }
+
 
 }
